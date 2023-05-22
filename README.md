@@ -43,11 +43,11 @@ docker compose up main_build
 
 4) Upload the executable file and the configuration file to the corresponding Amazon EC2 instance. For example, rename `config_0.yaml` to `config.yaml`, and upload it with `start` to the first EC2 instance. 
 
-5) Run the executable files on EC2 instances. To start an experiment with the batch size 10000, run the following command simultaneously on the EC2 instances,
+5) Run the executable files on EC2 instances. To start an experiment with the batch size 10000, run the following command simultaneously on the EC2 instances.
 ```
 cd /home/ubuntu && nohup ./start 10000 > /dev/null 2>log &
 ```
-You can do this through AWS SDK (such as [boto3](https://aws.amazon.com/sdk-for-python)). After the experiment ends, find the reports on your EC2 instances.
+You can do this through AWS API (such as [boto3](https://aws.amazon.com/sdk-for-python)). After the experiment ends, find the reports on your EC2 instances.
 
 
 ### LICENSE
