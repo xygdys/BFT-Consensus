@@ -1,0 +1,5 @@
+FROM golang:1.18-buster
+ENV GOPROXY https://goproxy.cn
+WORKDIR ./Nemo-S
+COPY . .
+RUN go mod download
