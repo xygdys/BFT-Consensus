@@ -1,5 +1,5 @@
-# Nemo BFT Consensus
-Implementation of four BFT consensus protocols: Nemo, Nemo-S, [sDumbo](https://eprint.iacr.org/2022/027) and [Dumbo-NG](https://arxiv.org/abs/2209.00750).
+# Asynchronous BFT Consensus
+Implementation of four asynchronous BFT consensus protocols: Nemo, Nemo-S, [sDumbo](https://eprint.iacr.org/2022/027) and [Dumbo-NG](https://arxiv.org/abs/2209.00750).
 
 | Protocol      | Message Complexity | Communication Complexity            | Time Complexity |
 |---------------|--------------------|-------------------------------------|-----------------|
