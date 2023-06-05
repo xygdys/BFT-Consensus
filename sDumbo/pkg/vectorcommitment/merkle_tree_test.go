@@ -10,7 +10,7 @@ func TestNewMerkleTree(t *testing.T) {
 	data := [][]byte{
 		[]byte("hi"),
 		[]byte("hello"),
-		[]byte("fuck"),
+		[]byte("fans"),
 		[]byte("who"),
 	}
 	tre, err := NewMerkleTree(data)
